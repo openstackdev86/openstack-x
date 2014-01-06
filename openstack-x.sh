@@ -10,7 +10,7 @@ RES_COL=60
 MOVE_TO_COL="echo -en \\033[${RES_COL}G"
 SETCOLOR_SUCCESS="echo -en \\033[1;32m"
 SETCOLOR_FAILURE="echo -en \\033[1;31m"
-SETCOLOR_NORMAL="echo -en \\033[1;39m"
+SETCOLOR_NORMAL="echo -en \\033[0;39m"
 
 function echo_result {
     $MOVE_TO_COL
